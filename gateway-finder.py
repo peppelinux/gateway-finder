@@ -23,6 +23,11 @@
 # me at pentestmonkey at pentestmonkey.net
 #
 
+# Merging an upstream repository into this fork
+# git pull https://github.com/pentestmonkey/gateway-finder.git
+# git push origin master
+
+
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
